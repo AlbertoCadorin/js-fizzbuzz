@@ -7,6 +7,9 @@ for (let i = 1; i <= 100; i++){
     }else if (i % 3 === 0){
         console.log("Fizz")
 // altrimenti se è un multiplo di 5 stampa Buzz       
+    }else if (i % 5 === 0){
+        console.log("Buzz")
+// altrimenti stampa solo il numero
     }else{
         console.log(i)
     }
